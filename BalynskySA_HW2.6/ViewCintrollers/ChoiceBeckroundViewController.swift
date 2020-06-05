@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ChoiceBeckroundViewController.swift
 //  BalynskySA_HW2.6
 //
 //  Created by Macbook on 05.06.2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ChoiceBeckroundViewController: UIViewController {
 
     @IBOutlet weak var rgbView: UIView!
     @IBOutlet weak var redValueLabel: UILabel!
