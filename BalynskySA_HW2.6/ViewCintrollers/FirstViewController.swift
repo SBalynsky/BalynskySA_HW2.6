@@ -9,22 +9,37 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+    
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.view.backgroundColor = .init(red: 0, green: 0.5, blue: 0.5, alpha: 1)
     }
-    */
+    
+    
+    
+    // MARK: - Navigation
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let destination = segue.destination as? ChoiceBeckGroundViewController else { return }
+        destination.delegate = self
+        destination.redSet = 0
+        destination.greenSet = 0.5
+        destination.blueSet = 0.5
+      
+    }
+    
+  
+    }
+extension FirstViewController: NewBeckGraundDelegate {
+    func colorSet(redColor red: CGFloat, green: CGFloat, blueColor blue: CGFloat) {
+        self.view.backgroundColor = .init(red: red, green: green, blue: blue, alpha: 1)
+    }
+    
+    
+  }
 
-}

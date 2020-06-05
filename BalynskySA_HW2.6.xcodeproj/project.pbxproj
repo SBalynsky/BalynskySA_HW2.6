@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FAC81921248A132F00E35024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC81920248A132F00E35024 /* AppDelegate.swift */; };
 		FAC81923248A132F00E35024 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC81922248A132F00E35024 /* SceneDelegate.swift */; };
-		FAC81925248A132F00E35024 /* ChoiceBeckroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC81924248A132F00E35024 /* ChoiceBeckroundViewController.swift */; };
+		FAC81925248A132F00E35024 /* ChoiceBeckGroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC81924248A132F00E35024 /* ChoiceBeckGroundViewController.swift */; };
 		FAC81928248A132F00E35024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC81926248A132F00E35024 /* Main.storyboard */; };
 		FAC8192A248A133300E35024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC81929248A133300E35024 /* Assets.xcassets */; };
 		FAC8192D248A133300E35024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC8192B248A133300E35024 /* LaunchScreen.storyboard */; };
@@ -20,7 +20,7 @@
 		FAC8191D248A132F00E35024 /* BalynskySA_HW2.6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BalynskySA_HW2.6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC81920248A132F00E35024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC81922248A132F00E35024 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAC81924248A132F00E35024 /* ChoiceBeckroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceBeckroundViewController.swift; sourceTree = "<group>"; };
+		FAC81924248A132F00E35024 /* ChoiceBeckGroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceBeckGroundViewController.swift; sourceTree = "<group>"; };
 		FAC81927248A132F00E35024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAC81929248A133300E35024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC8192C248A133300E35024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		FAFAAFD0248A7E4600E71FDF /* ViewCintrollers */ = {
 			isa = PBXGroup;
 			children = (
-				FAC81924248A132F00E35024 /* ChoiceBeckroundViewController.swift */,
+				FAC81924248A132F00E35024 /* ChoiceBeckGroundViewController.swift */,
 				FAFAAFD4248A7F1300E71FDF /* FirstViewController.swift */,
 			);
 			path = ViewCintrollers;
@@ -173,7 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC81925248A132F00E35024 /* ChoiceBeckroundViewController.swift in Sources */,
+				FAC81925248A132F00E35024 /* ChoiceBeckGroundViewController.swift in Sources */,
 				FAC81921248A132F00E35024 /* AppDelegate.swift in Sources */,
 				FAC81923248A132F00E35024 /* SceneDelegate.swift in Sources */,
 				FAFAAFD5248A7F1400E71FDF /* FirstViewController.swift in Sources */,
